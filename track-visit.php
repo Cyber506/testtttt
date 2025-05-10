@@ -1,6 +1,6 @@
 <?php
 $host = 'mzag-server.mysql.database.azure.com';
-$dbname = 'test';
+$dbname = 'yy';
 $username = 'apvaxcickj';
 $password = 'Coco@1234';
 
