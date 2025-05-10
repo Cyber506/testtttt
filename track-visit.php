@@ -1,14 +1,14 @@
 <?php
-$host = 'sql200.infinityfree.com';
-$dbname = 'if0_38543174_my_db';
-$username = 'if0_38543174';
-$password = 'MDH6WuEkvPyL';
+$host = 'mzag-server.mysql.database.azure.com';
+$dbname = 'test';
+$username = 'apvaxcickj';
+$password = 'Coco@1234';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
-    die("فشل الاتصال بقاعدة البيانات.");
+    die("ddفشل الاتصال بقاعدة البيانات.");
 }
 
 $ip = $_SERVER['REMOTE_ADDR'];
