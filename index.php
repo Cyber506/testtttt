@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require 'track-visit.php';
+
 
 if (isset($_SESSION['user_id'])) {
     $host = 'sql200.infinityfree.com';
